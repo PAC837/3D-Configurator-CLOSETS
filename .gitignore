@@ -1,0 +1,30 @@
+# Node/JS
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# App subfolders (if present)
+app/node_modules/
+app/dist/
+
+# Mozaik (MUST NOT be committed)
+Mozaik 14/
+
+# Caches
+.cache/
+.tmp/
